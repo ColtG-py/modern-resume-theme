@@ -32,13 +32,7 @@ linkedin_username: colt-gainey-0221b2139/
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/1632930757696.jfif
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  <mark>Engineering as a Service.</mark> I'm passionate about create cloud solutions to solve societal problems. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge.
 
 content:
   - title: Projects # Title for the section
