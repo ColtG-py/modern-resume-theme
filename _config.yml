@@ -32,7 +32,8 @@ linkedin_username: colt-gainey-0221b2139/
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/1632930757696.jfif
 about_content: | # this will include new lines to allow paragraphs
-  <mark>Engineering as a Service.</mark> I'm passionate about create cloud solutions to solve societal problems. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge.
+  <mark>Engineering as a Service.</mark>
+  I'm passionate about creating cloud solutions that solve societal problems. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge, and constantly studying the new best practices.
 
 content:
   - title: Projects # Title for the section
