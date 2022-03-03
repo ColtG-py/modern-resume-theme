@@ -16,11 +16,11 @@ website: you're here!
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  Archiya
-linkedin_username: colt-gainey-0221b2139/
+linkedin_username: colt-gainey
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -43,7 +43,7 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Smoke Test Automation
         quote: >
-          Automated E2E product testing done ***24/7*** in all production deployments.
+          Automated E2E product testing done 24/7 in all production deployments.
         description: | # this will include new lines to allow paragraphs
           Conceptualized, researched, developed, and rolled out complete end-to-end testing platform which can be used to quickly and easily run any test suite dozens of times per hour, supporting a variety of operating systems and testing frameworks (Cypress, Selenium, Robot).
           
