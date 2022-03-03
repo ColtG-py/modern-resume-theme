@@ -52,8 +52,6 @@ content:
           Runs serverlessly via Docker and Lambda, utilizing GitLab CI as the CICD pipeline of choice along with AWS SAM to deploy Lambda docker containers. Features testing on demand via API Gateway. Forwards metrics off to CloudWatch, where it then utilizes anomaly detection to intelligently detect degredations and downtime.
           
           Features a front-end component written ReactJS which calls the backend API to serve current monitoring results on demand, and also in graphical format. Utilizes our Active Domain through Microsoft to gate access.
-    layout: list
-    content:
       - layout: left
         border: weak
         title: Near-Zero Downtime Upgrade
