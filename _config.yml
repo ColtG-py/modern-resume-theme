@@ -32,8 +32,7 @@ linkedin_username: colt-gainey-0221b2139/
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/1632930757696.jfif
 about_content: | # this will include new lines to allow paragraphs
-  <mark>Engineering as a Service.</mark>
-  I'm passionate about creating cloud solutions that solve societal problems. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge, and constantly studying the new best practices.
+  I'm a passionate and driven engineer that specializes in cloud architecture and integrating DevOps practices into teams. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge, and constantly studying new best practices.
 
 content:
   - title: Projects # Title for the section
@@ -42,20 +41,13 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Smoke Test Automation
         quote: >
-          Short overview of the project (optional)
+          Automated E2E product testing done 24/7 in all production deployments.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Conceptualized, researched, developed, and rolled out complete end-to-end testing platform which can be used to quickly and easily run any test suite dozens of times per hour, supporting a variety of operating systems and testing frameworks (Cypress, Selenium, Robot).
+          Services 5 critical products within the Infor ecosystem, providing constant alerting in the event of a degredation or downtime. To date, has caught nearly a dozen outages before the rest of our alerting caught on, reducing MTTD and MTTR.
+          Runs serverlessly via Docker and Lambda, utilizing GitLab CI as the CICD pipeline of choice along with AWS SAM to deploy Lambda docker containers. Features testing on demand via API Gateway. Forwards metrics off to CloudWatch, where it then utilizes anomaly detection to intelligently detect degredations and downtime.
   - title: Experience
     layout: list
     content:
