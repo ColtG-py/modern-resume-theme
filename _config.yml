@@ -43,40 +43,72 @@ content:
                       # other value (or no value) means no border will be displayed
         title: Smoke Test Automation
         quote: >
-          Automated E2E product testing done 24/7 in all production deployments.
+          Automated E2E product testing done ***24/7*** in all production deployments.
         description: | # this will include new lines to allow paragraphs
           Conceptualized, researched, developed, and rolled out complete end-to-end testing platform which can be used to quickly and easily run any test suite dozens of times per hour, supporting a variety of operating systems and testing frameworks (Cypress, Selenium, Robot).
+          
           Services 5 critical products within the Infor ecosystem, providing constant alerting in the event of a degredation or downtime. To date, has caught nearly a dozen outages before the rest of our alerting caught on, reducing MTTD and MTTR.
+          
           Runs serverlessly via Docker and Lambda, utilizing GitLab CI as the CICD pipeline of choice along with AWS SAM to deploy Lambda docker containers. Features testing on demand via API Gateway. Forwards metrics off to CloudWatch, where it then utilizes anomaly detection to intelligently detect degredations and downtime.
+          
+          Features a front-end component written ReactJS which calls the backend API to serve current monitoring results on demand, and also in graphical format. Utilizes our Active Domain through Microsoft to gate access.
+        title: Near-Zero Downtime Upgrade
+        quote: >
+          Leveraging Blue/Green deployments to reduce customer downtime during updates by 95%.
+        description: | # this will include new lines to allow paragraphs
+          Worked as part of a small team in charge of drastically reducing the downtime of customers during hotfixes and production updates. Utilized a variety of AWS services (ECS, ApacheMQ, ALB, DynamoDB) to deploy an updated farm, then systematically update each customers database before switching their routing to the new farm.
+          
+          Resulted in a 95% reduction in the downtime of customers during upgrades, taking what was a 2+ hour process down to a handful of minutes.    
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Infor
+        sub_title: Development Operations Engineer
+        caption: June 2019 - present
+        link: www.infor.com
         quote: >
-          Short description of the company (optional)
+          Specialized enterprise solutions for complex applications.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Developed DevOps solutions for multiple products which solved a variety of problems from monitoring gaps to toil reduction.
+          Heavily utilized and architected solutions in AWS, spanning dozens of services. Utilized Gitlab CI and Jenkins for deployment CI/CD, and Terraform / AWS SAM for IaC.
+          Utilized Docker to configure and deploy consistent images and tasks as part of business logic.
+          Utilized K9s to configure and manage Kubernetes clusters.
+          Led agile team in the development of Smoke Test Automation with duties which included sprint management, blameless post mortems, stand-ups, and retrospectives.
+          Assisted with critical production outages and deployments, RCA calls, outage postmortems, and SOP standardization. Collaborated across many different teams to achieve all aforementioned solutions.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Clemson University
+        sub_title: Computer Science
+        caption: 2017 - 2020
         quote: >
-          Short institution or course description (optional)
+          Pursed degree in Computer Science. 
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Obtained degree featuring course work in Networking, Data Structures and Algorithms, Operating Systems, Human Computer Interactions, and more.
+  - title: Skills
+    layout: list
+    content:
+      - layout: top-right
+        description: | # this will include new lines to allow paragraphs
+          Cloud Skills: AWS(EC2, ECS, EKS, EBS, ALB, Lambda, API Gateway, DynamoDB, SQS, MQ), Azure(Admin)
+          
+          Containerization: Docker / Kubernetes
+          
+          CI/CD: Gitlab CI, Jenkins, AWS CodeDeploy, AWS CodePipeline
+          
+          Infrastructure as Code: Terraform, AWS SAM, CloudFormation, proprietary tooling
+         
+          Scripting: Python, ReactJS, TypeScript, Java
+          
+          App Development: Python, ReactJS, C++
+          
+          Project Management and Leadership
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      I spend my free time pursuing other interests like rock climbing, music, sports science, and history. I'm also the proud owner of a blind cat. He probably knows too much, as I talk him through all of my programming problems.
 
 # Footer
 footer_show_references: true
