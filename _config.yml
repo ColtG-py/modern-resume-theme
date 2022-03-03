@@ -94,19 +94,19 @@ content:
     content:
       - layout: top-right
         description: | # this will include new lines to allow paragraphs
-          Cloud Skills: AWS(EC2, ECS, EKS, EBS, ALB, Lambda, API Gateway, DynamoDB, SQS, MQ), Azure(Admin)
+          ***Cloud Skills***: AWS (EC2, ECS, EKS, EBS, ALB, Lambda, API Gateway, DynamoDB, SQS, MQ), Azure (Administrative)
           
-          Containerization: Docker / Kubernetes
+          ***Containerization***: Docker / Kubernetes
           
-          CI/CD: Gitlab CI, Jenkins, AWS CodeDeploy, AWS CodePipeline
+          ***CI/CD***: Gitlab CI, Jenkins, AWS CodeDeploy, AWS CodePipeline
           
-          Infrastructure as Code: Terraform, AWS SAM, CloudFormation, proprietary tooling
+          ***Infrastructure as Code***: Terraform, AWS SAM, CloudFormation, proprietary tooling
          
-          Scripting: Python, ReactJS, TypeScript, Java
+          ***Scripting***: Python, ReactJS, TypeScript, Java
           
-          App Development: Python, ReactJS, C++
+          ***App Development***: Python, ReactJS, C++
           
-          Project Management and Leadership
+          ***Project Management and Leadership***
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
