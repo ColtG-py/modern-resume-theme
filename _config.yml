@@ -19,7 +19,7 @@ website: you're here!
 darkmode: false
 
 # Social links
-github_username:  Archiya
+github_username:  ColtG-py
 linkedin_username: colt-gainey
 
 # Google Analytics and Tag Manager
@@ -77,9 +77,24 @@ content:
     layout: list
     content:
       - layout: right
+        title: Bracari
+        sub_title: Software Development Engineer
+        caption: April 2022 - present
+        link: www.bracari.com
+        quote: >
+          Solve important problems for good reasons.
+        description: | # this will include new lines to allow paragraphs
+          Lead agile team development of AI product which leveraged latest LLM technology to offer deep insights into customer data.
+          Work with exciting new ML technologies to better leverage data we generate, utilizing LLM's, LangChain, Vectorstores, and event driven ETL.
+          Broke down monolithic application into dockerized microservice components, improving time to market, elasticity, and recovery.
+          Creating a full end to end build, release, deploy, and monitor CI/CD pipeline powered by Github Actions, Maven, AWS, and Sonarqube that allows us to focus on code and solutions, and worry less about the dependability of our deliverables.
+          Optimize CI/CD for speed and agility on a per project basis, and integrate developer feedback and needs to better service both development and operations.
+          Contribute to full-stack development of flagship application, utilizing TypeScript, React, Next JS, and Java Spring. 
+          Developing a variety of API's used throughout applications.
+      - layout: right
         title: Infor
         sub_title: Development Operations Engineer
-        caption: June 2019 - present
+        caption: June 2019 - April 2022
         link: www.infor.com
         quote: >
           Specialized enterprise solutions for complex applications.
