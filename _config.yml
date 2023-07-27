@@ -41,6 +41,18 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
+        title: BracarAI
+        quote: >
+          Deep insights into your business data, no matter the size.
+        description: | # this will include new lines to allow paragraphs
+          Researched and lead development of internal product, BracarAI, which leverages latest LLM advancements to create an application capable of taking large amounts of customer data, vectorizing on demand, and offering a seemless chatting experience with that data.
+  
+          Fully realized, fully capable multi-tenant application capable of supporting many companies with many different models due to it's on-demand, event driven architecture. 
+          
+          Full stack app created with the following technologies: Amplify, Lambda, API Gateway, DynamoDB, S3, Cognito, React JS
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: Smoke Test Automation
         quote: >
           Automated E2E product testing done 24/7 in all production deployments.
