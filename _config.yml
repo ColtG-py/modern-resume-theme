@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Colt Gainey
-title: Development Operations Engineer
-email: colt.sre@gmail.com
+title: Software Development Engineer
+email: colt.gainey@gmail.com
 # email_title: Email (Email title override)
 phone: (803) 229-0667
 # phone_title: Phone (Phone title override)
@@ -32,7 +32,7 @@ linkedin_username: colt-gainey
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/1632930757696.jfif
 about_content: | # this will include new lines to allow paragraphs
-  I'm a passionate and driven engineer that specializes in cloud architecture and integrating DevOps practices into teams. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge, and constantly studying new best practices.
+  I'm a passionate and driven engineer that specializes in cloud architecture, integrating DevOps practices, and creating/leveraging ML solutions. I've got a proven track record of helping organizations deliver their products to customers faster, more reliably, and more securly through a litany of cloud solutions. I'm always looking for the next big challenge, and constantly studying new best practices.
 
 content:
   - title: Projects # Title for the section
